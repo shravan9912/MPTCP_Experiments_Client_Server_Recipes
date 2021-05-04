@@ -7,3 +7,12 @@ If MPTCP is present on both devices and configured correctly, MPTCP will be used
 Incase MPTCP is not present, regular TCP will be used.
 Stream is saved on server side.
 Carefull to disconnect stream from client side. disconnecting from server side will lead to stream not saving on server side.
+
+Dependecies
+Install matplotlib
+sudo pip3 install matplotlib
+
+install ffmpeg
+
+sudo apt-get install ffmpeg
+
